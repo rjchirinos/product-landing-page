@@ -6,3 +6,13 @@ $(window).on('scroll', function() {
     $("nav").removeClass("blue");
   }
 })
+$(document).ready(function() {
+    $(".menu-icon").on("click", function() {
+        if ($("#menu").hasClass("show")) {
+            $("#menu").removeClass("show");
+        }
+        else {
+            $("#menu").addClass("show");
+        }
+    })
+})
