@@ -64,6 +64,10 @@ nav li a:hover {
   max-height: 100px;
 }
 
+section {
+  min-height: 100vh;
+}
+
 section.sec1 {
   position: relative;
   z-index: -1;
