@@ -276,6 +276,18 @@ footer a, footer a:hover {
     width: 90%;
     font-size: 0.8rem;
   }
+
+  section {
+    min-height: 100vh;
+    position: static;
+  }
+
+  section .inner {
+  position: static;
+  transform: none;
+  width: 100%;
+  }  
+
   #features #flex1 {
     flex-direction: column;
     align-content: space-evenly;
